@@ -23,6 +23,11 @@
 		6B57C2002A9675C40037E125 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C1FF2A9675C40037E125 /* CodableBundleExtension.swift */; };
 		6B57C2022A9676BD0037E125 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2012A9676BD0037E125 /* FeaturedItemView.swift */; };
 		6B57C2042A96779E0037E125 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2032A96779E0037E125 /* FeaturedTabView.swift */; };
+		6B57C2062A9799F70037E125 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2052A9799F70037E125 /* CategoryModel.swift */; };
+		6B57C2082A979AA70037E125 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2072A979AA60037E125 /* CategoryItemView.swift */; };
+		6B57C20A2A979CEB0037E125 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C2092A979CEB0037E125 /* CategoryGridView.swift */; };
+		6B57C20C2A979FAB0037E125 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C20B2A979FAB0037E125 /* SectionView.swift */; };
+		6B57C20E2A97A4900037E125 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57C20D2A97A4900037E125 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +48,11 @@
 		6B57C1FF2A9675C40037E125 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		6B57C2012A9676BD0037E125 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		6B57C2032A96779E0037E125 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		6B57C2052A9799F70037E125 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		6B57C2072A979AA60037E125 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		6B57C2092A979CEB0037E125 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		6B57C20B2A979FAB0037E125 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		6B57C20D2A97A4900037E125 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +142,10 @@
 				6B57C1FB2A9670660037E125 /* LogoView.swift */,
 				6B57C2012A9676BD0037E125 /* FeaturedItemView.swift */,
 				6B57C2032A96779E0037E125 /* FeaturedTabView.swift */,
+				6B57C2072A979AA60037E125 /* CategoryItemView.swift */,
+				6B57C2092A979CEB0037E125 /* CategoryGridView.swift */,
+				6B57C20B2A979FAB0037E125 /* SectionView.swift */,
+				6B57C20D2A97A4900037E125 /* TitleView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -147,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				6B57C1FD2A96758A0037E125 /* PlayerModel.swift */,
+				6B57C2052A9799F70037E125 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,9 +263,14 @@
 				6B57C2022A9676BD0037E125 /* FeaturedItemView.swift in Sources */,
 				6B57C1D72A966A5C0037E125 /* yc_TouchdownApp.swift in Sources */,
 				6B57C1F62A966B6D0037E125 /* Constant.swift in Sources */,
+				6B57C20A2A979CEB0037E125 /* CategoryGridView.swift in Sources */,
+				6B57C2062A9799F70037E125 /* CategoryModel.swift in Sources */,
 				6B57C1FA2A966F8C0037E125 /* NavigationBarView.swift in Sources */,
+				6B57C20C2A979FAB0037E125 /* SectionView.swift in Sources */,
+				6B57C2082A979AA70037E125 /* CategoryItemView.swift in Sources */,
 				6B57C2042A96779E0037E125 /* FeaturedTabView.swift in Sources */,
 				6B57C1FE2A96758A0037E125 /* PlayerModel.swift in Sources */,
+				6B57C20E2A97A4900037E125 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
